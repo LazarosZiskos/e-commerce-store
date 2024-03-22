@@ -52,7 +52,7 @@ const Newest = async () => {
               <div className="mt-4 flex justify-between">
                 <div>
                   <h3 className="text-sm text-gray-700 font-semibold">
-                    <Link href={`/products/${product.slug}`}>
+                    <Link href={`/product/${product.slug}`}>
                       {product.name}
                     </Link>
                   </h3>
