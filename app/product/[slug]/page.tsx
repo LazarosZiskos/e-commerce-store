@@ -1,3 +1,5 @@
+import AddToCart from "@/app/components/AddToCart";
+import CheckoutNow from "@/app/components/CheckoutNow";
 import ImageGallery from "@/app/components/ImageGallery";
 import { fullProduct } from "@/app/interface";
 import { client } from "@/app/lib/sanity";
@@ -68,8 +70,15 @@ const ProductPage = async ({ params }: { params: { slug: string } }) => {
             </div>
 
             <div className="flex gap-2.5">
-              <Button>Add To Cart</Button>
-              <Button variant="secondary">Checkout now</Button>
+              <AddToCart
+                currency="USD"
+                description={data.description}
+                image={data.images[0]}
+                name={data.name}
+                price={data.price}
+                key={data._id}
+              />
+              <CheckoutNow />
             </div>
 
             <p className="mt-12 text-base text-gray-500 tracking-wide">
