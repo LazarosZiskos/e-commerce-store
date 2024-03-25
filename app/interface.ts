@@ -15,4 +15,5 @@ export interface fullProduct {
   name: string;
   images: any;
   description: string;
+  price_id: string;
 }
