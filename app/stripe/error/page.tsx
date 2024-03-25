@@ -1,7 +1,9 @@
-import React from "react";
-
-const page = () => {
-  return <div>page</div>;
+const ErrorStripe = () => {
+  return (
+    <div className="py-10">
+      <h2>Something went wrong...</h2>
+    </div>
+  );
 };
 
-export default page;
+export default ErrorStripe;
