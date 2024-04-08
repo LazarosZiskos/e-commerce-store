@@ -12,16 +12,16 @@ const navLinks = [
     href: "/",
   },
   {
-    name: "Men",
-    href: "/Men",
+    name: "Iphones",
+    href: "/Iphones",
   },
   {
-    name: "Women",
-    href: "/Women",
+    name: "Laptops",
+    href: "/Laptops",
   },
   {
-    name: "Teens",
-    href: "/Teens",
+    name: "Tablets",
+    href: "/Tablets",
   },
 ];
 
